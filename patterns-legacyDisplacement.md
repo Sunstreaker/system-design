@@ -51,6 +51,24 @@ The pattern for modernizing a legacy application typically involves the followin
 
 
 
+## links
+
+Here are some helpful resources for learning more about legacy application modernization:
+
+Gartner: Legacy Application Modernization Strategies
+https://www.gartner.com/smarterwithgartner/legacy-application-modernization-strategies/
+
+IBM: Modernize legacy applications
+https://www.ibm.com/cloud/modernization/legacy-applications
+
+Microsoft: Modernize your existing applications and infrastructure
+https://azure.microsoft.com/en-us/solutions/modernize-existing-apps/
+
+AWS: Application Modernization
+https://aws.amazon.com/application-modernization/
+
+
+
 
 
 
