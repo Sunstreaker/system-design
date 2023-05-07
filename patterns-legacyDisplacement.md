@@ -47,7 +47,7 @@ Legacy application modernization is the process of updating or transforming exis
 
 
 
-## Legacy application modernization patterns
+## Legacy application modernization steps
 
 The pattern for modernizing a legacy application typically involves the following steps:
 
