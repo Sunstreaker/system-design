@@ -34,7 +34,9 @@
 - Protected Pilot
 
 
-# Example
+# Example - Integration Middleware Removal
+
+
 
 
 
