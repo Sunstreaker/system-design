@@ -34,7 +34,22 @@
 - Protected Pilot
 
 
-# Example - Integration Middleware Removal
+### Legacy application modernization
+
+Legacy application modernization is the process of updating or transforming existing applications to leverage modern technology and meet current business needs. 
+The pattern for modernizing a legacy application typically involves the following steps:
+
+- <b>Assessment</b>: The first step is to assess the current state of the legacy application and identify its strengths, weaknesses, and areas for improvement. This includes analyzing the application's architecture, codebase, data models, and other relevant components.
+
+- <b>Planning</b>: Based on the assessment, a plan is developed to modernize the application. This plan typically includes identifying the target architecture, defining the migration strategy, estimating the costs and timelines, and identifying the risks and mitigation strategies.
+
+- <b>Migration</b>: The next step is to migrate the application to the target architecture. This involves re-architecting the application, refactoring the codebase, and re-platforming the application to a modern infrastructure.
+
+- <b>Validation</b>: Once the migration is complete, the application is thoroughly tested to ensure that it meets the desired functional and non-functional requirements. This includes testing for performance, security, reliability, and other relevant factors.
+
+- <b>Deployment</b>: The final step is to deploy the modernized application into production. This involves configuring the application, setting up the necessary infrastructure, and validating that the application is working as expected.
+
+
 
 
 
