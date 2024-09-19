@@ -1,5 +1,8 @@
 # core concepts
 
+## tools/frameworks
+* Raft
+
 ## questions
 * why do we need odd number of nodes in a cluster?
 
@@ -17,4 +20,23 @@ Ans:
     Let redo the cluster with 6 node in one dataceter and 4 in another, in this case the 4 node will not participate in election considring it is less count in nodes when compared to the another datacenter, which will avoid this issue
     
 
-## concepts
+## tools/frameworks
+
+### Raft
+https://www.youtube.com/watch?v=P9Ydif5_qvE&t=53s
+
+### Redis
+https://www.youtube.com/watch?v=3WOfXRjYnGA
+
+### kafka
+
+https://www.youtube.com/watch?v=6YL0L4lb9iM
+
+### mongodb
+
+
+
+
+
+
+
