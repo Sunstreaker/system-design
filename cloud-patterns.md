@@ -23,16 +23,16 @@ And in case the traffic increases, it can also spin up more pods to catchup with
 
 ## Algorithms
 1. Round robin
-   1.1 It will pick the server in round robin way.
-   1.2 This algorithm can be implemented only in case of stateless servers
+   * It will pick the server in round robin way.
+   * This algorithm can be implemented only in case of stateless servers
 2. Sticky session or session affinity
-   2.1 Using this algorithm the loadbalancer can send the request from a client to the same server
-   2.2 This can be done only for a shorter session
-   2.3 One way to achieve this is a cookie will be placed in the client, this will send to the loadbalancer for every request
-   2.4 Another way is to send the IP address from the client, using this IP address the server can forward the same client request to a particular server
-   2.5 If a same client is having a greater number of connections, this can cause problem to the server. The server may be overloaded and performance can degrade.
+   * Using this algorithm the loadbalancer can send the request from a client to the same server
+   * This can be done only for a shorter session
+   * One way to achieve this is a cookie will be placed in the client, this will send to the loadbalancer for every request
+   * Another way is to send the IP address from the client, using this IP address the server can forward the same client request to a particular server
+   * If a same client is having a greater number of connections, this can cause problem to the server. The server may be overloaded and performance can degrade.
 3. Least connection
-   3.1 This overcomes the drawback of the "Sticky Sessions". The loadbalancer will try to see if a single server is overloaded it can see the least connection server and can redirect the request. This can be used for "SQL, "LDAP" or other activities
+   * This overcomes the drawback of the "Sticky Sessions". The loadbalancer will try to see if a single server is overloaded it can see the least connection server and can redirect the request. This can be used for "SQL, "LDAP" or other activities
 
 
 # Message Brokers
