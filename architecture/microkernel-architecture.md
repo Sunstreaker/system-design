@@ -7,7 +7,7 @@
 
 ## topology
 
-<img src="./asserts/microkernel-architecture-1.png" width="200" height="400" alt="Alt text">
+<img src="./asserts/microkernel-architecture-1.png" width="300" height="500" alt="Alt text">
 
 
 * it consists of two types of architectural components
@@ -68,5 +68,8 @@
     * the core system have the basic browser
     * the other plugins adds capability to the browser
 - in the below example, the claims rules for different jurisdiction added as plugin. the core system have only the basic rules
-  <img src="./asserts/microkernel-architecture-2.png" width="200" height="400" alt="Alt text">
+  <img src="./asserts/microkernel-architecture-2.png" width="300" height="500" alt="Alt text">
 
+## Architecture Characteristics
+
+<img src="./asserts/microkernel-architecture-3.png" width="300" height="500" alt="Alt text">
