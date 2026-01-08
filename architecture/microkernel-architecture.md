@@ -37,6 +37,26 @@
         + name
         + contract details and protocol details on how plugins are connected to the core system
 
+## consideration
+
+### analysis
+* It is very flexible and granular
+* It can effectively support in evolutionary design and incremental development.
+* It can be easily embedded to another architecture of the system
+    - the plugins can be developed in another architecture style, but can be connected to core system thorough a contract
+
+### to use
+* where application that will have planned extensions
+* it is a good choice for products where you will be releasing additional features over time
+* you want control over which users get which features
+* good choice for applications or products that have multiple configurations based on a particular client environment or deployment model
+
+### not to use
+* All requests must go through the core system, regardless of whether the plug-ins are remote or point-to-point invocations. Because of this, the core system acts as the main bottleneck to this architecture, and is not well suited for highly scalable and elastic systems.
+* overall fault tolerance is not good in this architecture style, again due to the need for the core system as an entry point
+* if you find that most of your changes are within the core system and you are not leveraging the power of plug-ins to contain additional functionality, this is likely not a good architecture match for the problem you are trying to solve
+
+
 ## examples
 
 * examples
