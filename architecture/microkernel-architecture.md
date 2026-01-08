@@ -1,9 +1,9 @@
 # microkernel architecture
 
+## definition
+
 * it also refers as "plug-in architecture"
 * users can add features or additionality in terms of plugins
-* examples - many operating systems are developed based on this architecture
-* examples - product or package based applications are developed in this architecture
 
 ## topology
 
@@ -36,7 +36,18 @@
     - the plugins are added to the plugin registry. It have the information about the plugins
         + name
         + contract details and protocol details on how plugins are connected to the core system
-          
 
+## examples
 
+* examples
+    - many operating systems are developed based on this architecture
+    - product or package based applications are developed in this architecture
+    - eclipse IDE
+        * the core system have the basic Eclipse editor
+        * However, once you start adding plug-ins, it becomes a highly customizable and useful product for clients
+    - chrome browser
+        * the core system have the basic browser
+        * the other plugins adds capability to the browser
+    - in the below example, the claims rules for different jurisdiction added as plugin. the core system have only the basic rules
+      <img src="./asserts/microkernel-architecture-2.png" width="200" height="400" alt="Alt text">
 
