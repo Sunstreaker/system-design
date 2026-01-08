@@ -7,6 +7,9 @@
 
 ## topology
 
+![alt text](asserts/microkernel-architecture-1.png)
+
+
 * it consists of two types of architectural components
     - core systems
     - plug-in modules
